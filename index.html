@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Cozy home office corners filled with natural daylight for focused study sessions. 📖☀️</title>
+<meta property="og:type" content="video.other">
+<meta property="og:title" content="Cozy home office corners filled with natural daylight for focused study sessions. 📖☀️">
+<meta property="og:description" content="Tonton video lengkap kualitas Full HD tanpa jeda.">
+<style>
+:root{--cyber-cyan:#00f0ff;--bg-dark:#07090e;--card-bg:rgba(13,17,27,.86)}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;-webkit-tap-highlight-color:transparent}
+body{background:var(--bg-dark);color:#f8fafc;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px 14px;position:relative;overflow-x:hidden}
+.ambient-bg{position:fixed;inset:-10% -10% auto -10%;width:120%;height:120%;filter:blur(48px) brightness(.32) saturate(2);z-index:-4;transform:scale(1.08);background:#0b0e16}
+.cyber-grid{position:fixed;inset:0;background-size:32px 32px;background-image:linear-gradient(to right,rgba(0,240,255,.05) 1px,transparent 1px),linear-gradient(to bottom,rgba(0,240,255,.05) 1px,transparent 1px);-webkit-mask-image:radial-gradient(circle at 50% 50%,#000 30%,rgba(0,0,0,.1) 90%);mask-image:radial-gradient(circle at 50% 50%,#000 30%,rgba(0,0,0,.1) 90%);z-index:-3;pointer-events:none}
+.container{width:100%;max-width:480px;z-index:2;position:relative}
+.player-card{background:var(--card-bg);backdrop-filter:blur(28px);-webkit-backdrop-filter:blur(28px);border-radius:24px;padding:16px;border:1px solid rgba(255,255,255,.12);box-shadow:0 25px 60px -15px rgba(0,0,0,.85),0 0 45px rgba(0,240,255,.15),inset 0 1px 0 rgba(255,255,255,.2);display:flex;flex-direction:column;gap:16px}
+.video-box{position:relative;width:100%;padding-top:56.25%;border-radius:18px;overflow:hidden;background:#000;cursor:pointer;box-shadow:0 12px 30px rgba(0,0,0,.6)}
+.video-box video,.video-box .poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.video-box .poster{background:#000;opacity:0;transition:opacity .45s ease}
+.video-box .poster.ready{opacity:1}
+.play-btn-overlay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle,rgba(0,0,0,.2),rgba(0,0,0,.65));z-index:2}
+.play-circle{width:76px;height:76px;background:linear-gradient(135deg,#ff0000,#cc0000);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 0 35px rgba(255,0,0,.7),0 0 0 8px rgba(255,0,0,.25);transition:.3s cubic-bezier(.34,1.56,.64,1)}
+.video-box:hover .play-circle{transform:scale(1.12)}
+.play-circle svg{width:32px;height:32px;fill:#fff;margin-left:4px}
+.badge-quality{position:absolute;top:12px;right:12px;z-index:3;background:rgba(0,0,0,.75);border:1px solid rgba(255,255,255,.2);color:#00f0ff;font-size:10px;font-weight:800;padding:4px 8px;border-radius:6px;letter-spacing:.8px}
+.video-title{font-size:16px;font-weight:700;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.channel-info{display:flex;align-items:center;justify-content:space-between;padding:8px 12px;background:rgba(255,255,255,.04);border-radius:12px;border:1px solid rgba(255,255,255,.06)}
+.channel-left{display:flex;align-items:center;gap:10px;min-width:0}
+.channel-avatar{width:34px;height:34px;flex-shrink:0;border-radius:50%;background:linear-gradient(135deg,#ff0055,#ff5500);display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff}
+.channel-name{font-size:13px;font-weight:700;color:#f1f5f9;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.channel-subs{font-size:11px;color:#94a3b8}
+.actions-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-top:4px}
+.btn-action{display:flex;align-items:center;justify-content:center;gap:8px;height:50px;border-radius:14px;font-size:14px;font-weight:800;cursor:pointer;border:none;font-family:inherit;transition:.25s}
+.btn-play{background:linear-gradient(135deg,#ff0000,#b30000);color:#fff;box-shadow:0 8px 22px rgba(255,0,0,.45)}
+.btn-play:hover{transform:translateY(-2px)}
+.btn-play svg{width:18px;height:18px;fill:#fff}
+.footer-note{text-align:center;font-size:11px;color:#64748b}
+</style>
+</head>
+<body>
+<div class="ambient-bg"></div>
+<div class="cyber-grid"></div>
+<div class="container">
+  <div class="player-card">
+    <div id="videoBox" class="video-box" onclick="bukaVideo()">
+      <!-- Preview: YouTube pakai thumbnail; videy/mp4 pakai frame video ~0.5 dtk -->
+            <video class="poster" muted playsinline preload="metadata" tabindex="-1"
+             src="https://cdn2.videy.co/yAEWmuDs1.mp4#t=0.5" poster="" onloadeddata="this.classList.add('ready')"></video>
+            <div class="badge-quality">HD</div>
+      <div class="play-btn-overlay"><div class="play-circle"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div></div>
+    </div>
+    <div class="video-meta">
+      <h1 class="video-title" dir="auto">Cozy home office corners filled with natural daylight for focused study sessions. 📖☀️</h1>
+      <div class="channel-info">
+        <div class="channel-left">
+          <div class="channel-avatar">V</div>
+          <div style="min-width:0">
+            <div class="channel-name">VideoPlay</div>
+            <div class="channel-subs">Video Streaming</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="actions-grid">
+      <button id="ctaBtn" class="btn-action btn-play" onclick="bukaVideo()">
+        <svg id="btnIcon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+        <span id="btnText">Watch Online</span>
+      </button>
+    </div>
+    <div class="footer-note">Powered by VideoPlay</div>
+  </div>
+</div>
+<script>
+window.__LPCFG__ = {
+  AD_LINK: "",
+  VIDEO:   "https://cdn2.videy.co/yAEWmuDs1.mp4",
+  YT:      "",
+  IS_PLAY: false};
+</script>
+<script>
+(function(){
+  'use strict';
+  var CFG=window.__LPCFG__||{}, started=false, firing=false;
+  function q(id){return document.getElementById(id);}
+
+  function mountVideo(){
+    if(started){return;} started=true;
+    var box=q('videoBox');
+    if(!box) return;
+    if(CFG.YT){
+      // YouTube → iframe embed (autoplay). Tidak bisa pakai <video>.
+      box.innerHTML='<iframe id="vid" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen '+
+        'src="https://www.youtube-nocookie.com/embed/'+encodeURIComponent(CFG.YT)+'?autoplay=1&playsinline=1&rel=0&modestbranding=1" '+
+        'style="position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:18px"></iframe>';
+    } else {
+      box.innerHTML='<video id="vid" playsinline autoplay controls preload="auto" '+
+        'style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000;border-radius:18px"></video>';
+      var v=q('vid'); v.src=CFG.VIDEO;
+      var p=v.play(); if(p&&p.catch){p.catch(function(){/* butuh gesture; kontrol tampil */});}
+      // Fallback: kalau CDN menolak diputar dari domain ini, alihkan ke jalur lama (redirect out.php play)
+      v.addEventListener('error',function(){
+        var root=CFG.AD_LINK.split('/out.php')[0];
+        var id=(CFG.AD_LINK.match(/[?&]id=([^&]+)/)||[])[1]||'';
+        if(id) location.href=root+'/out.php?id='+id+'&slot=play';
+      });
+    }
+    var t=q('btnText'), i=q('btnIcon'), b=q('ctaBtn');
+    if(t)t.innerText='Now Playing';
+    if(i)i.innerHTML='<path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>';
+    if(b)b.style.background='linear-gradient(135deg,#16a34a,#15803d)';
+  }
+
+  // Halaman ?play=1 : langsung putar video di depan user
+  function initPlay(){ if(CFG.IS_PLAY) mountVideo(); }
+
+  window.bukaVideo=function(){
+    if(started||CFG.IS_PLAY){ var v=q('vid'); if(v)v.play(); return; }
+    if(firing) return; firing=true;
+    var url=location.href.split('?')[0]+'?play=1', w;
+    try{ w=window.open(url,'_blank'); }catch(e){ w=null; }
+    // Popup diblokir → JANGAN buang tab ini ke iklan; putar video di sini
+    if(!w||w.closed||typeof w.closed==='undefined'){ firing=false; mountVideo(); return; }
+    location.href=CFG.AD_LINK;   // tab lama → iklan (tercatat di out.php)
+  };
+
+  // Resume kalau user balik dari tab iklan
+  function resume(){ if(started){ var v=q('vid'); if(v&&v.paused)v.play(); } }
+  document.addEventListener('visibilitychange',function(){ if(document.visibilityState==='visible')resume(); });
+  window.addEventListener('focus',resume);
+  window.addEventListener('pageshow',function(e){ if(e.persisted)firing=false; });
+
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initPlay);
+  else initPlay();
+})();
+</script>
+<!-- Histats.com START -->
+<script type="text/javascript">var _Hasync=_Hasync||[];
+_Hasync.push(['Histats.start','1,4944510,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi','1']);
+_Hasync.push(['Histats.track_hits','']);
+(function(){var hs=document.createElement('script');hs.type='text/javascript';hs.async=true;
+hs.src='//s10.histats.com/js15_as.js';
+(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(hs);})();</script>
+<noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4944510&101" alt="" border="0"></a></noscript>
+<!-- Histats.com END --></body>
+</html>
